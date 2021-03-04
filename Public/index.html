@@ -11,25 +11,74 @@
       type="text/css"
       media="screen"
     />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="header.js"></script>
   </head>
   <body>
-    <h1>Pagina de inicio</h1>
+    <header>
+      <div class="wrapper">
+        <div class="logo">UPMP</div>
 
-    <button onclick="location.href='./MateriasAlumno/Matematicas.html'">
-      Matematicas para la ingenieria
-    </button>
-    <button onclick="location.href='./MateriasAlumno/InglesVI.html'">
-      Ingles VI
-    </button>
-    <button onclick="location.href='./MateriasAlumno/BasesDatos.html'">
-      Administración de Bases de Datos
-    </button>
-    <button onclick="location.href='./MateriasAlumno/Redes.html'">
-      Interconexion de Redes
-    </button>
-    <button
-      onclick="location.href='./MateriasAlumno/HabilidadesGerenciales.html'">
-      Habilidades Gerenciales
-    </button>
+        <nav>
+          <a href="/Public/index.html">Inicio</a>
+          <a href="#">Salir</a>
+        </nav>
+      </div>
+    </header>
+
+    <h1>Materias</h1>
+    <div class="divButton">
+      <button
+        class="boton_personalizado left"
+        onclick="location.href='./MateriasAlumno/Matematicas.html'"
+      >
+        Matematicas para la ingenieria
+      </button>
+      <button
+        class="boton_personalizado center"
+        onclick="location.href='./MateriasAlumno/BasesDatos.html'"
+      >
+        Administración de Bases de Datos
+      </button>
+      <button
+        class="boton_personalizado right"
+        onclick="location.href='./MateriasAlumno/Programacion.html'"
+      >
+        Programacion Orientada a Objetos
+      </button>
+    </div>
+    <div class="divButton">
+      <button
+        class="boton_personalizado"
+        onclick="location.href='./MateriasAlumno/Redes.html'"
+      >
+        Interconexion de Redes
+      </button>
+      <button
+        class="boton_personalizado"
+        onclick="location.href='./MateriasAlumno/HabilidadesGerenciales.html'"
+      >
+        Habilidades Gerenciales
+      </button>
+
+      <button
+        class="boton_personalizado"
+        onclick="location.href='./MateriasAlumno/SistemasOperativos.html'"
+      >
+        Sistemas Operativos
+      </button>
+    </div>
+    <div class="divButton">
+      <button
+        class="boton_personalizado"
+        onclick="location.href='./MateriasAlumno/InglesVI.html'"
+      >
+        Ingles VI
+      </button>
+    </div>
   </body>
 </html>
