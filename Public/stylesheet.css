@@ -2,3 +2,8 @@ h1{
     font-size: 24px;
     box-shadow: 0 20px 30px rgba(255, 116, 2, 0.705);
 }
+h2{
+    font-size: 18px;
+    box-shadow: 0 20px 30px rgba(12, 11, 10, 0.705);
+
+}
